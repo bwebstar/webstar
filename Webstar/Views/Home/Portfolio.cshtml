@@ -1,0 +1,499 @@
+﻿@{
+    ViewBag.Title = "Webstar Development";
+    Layout = "~/Views/Home/PortfolioLayout.cshtml";
+}
+
+
+        <div class="section-heading wow fadeInDown">
+            <h1>Portfolio</h1>
+            <div class="divider"></div>
+            <p>Take a closer look in more detail</p>
+        </div>
+
+        <div class="text-center">
+            <ul class="list-inline cat">
+                <!-- Portfolio Filter Categories -->
+                @*<li><a href="#" data-filter="*" class="button btn btn-primary">All</a></li>*@
+                <li><a href="#" data-filter=".web" class="btn btn-primary active">Web</a></li>
+                <li><a href="#" data-filter=".brand" class="btn btn-primary">Branding</a></li>
+                <li><a href="#" data-filter=".print" class="btn btn-primary">Print</a></li>
+                <li><a href="#" data-filter=".multi" class="btn btn-primary">Multimedia</a></li>
+            </ul><!-- End Portfolio Filter Categories -->
+        </div>
+
+        <!-- fluid container -->
+        <div id="itemsWork" class="row text-center">
+            <!-- Portfolio Wrapper Row -->
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Kiyoshi's - Japanese Restaurant" href='@Url.Content("~/Content/img/logos/img1.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img1_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="De Silva & Associates - Law Firm" href='@Url.Content("~/Content/img/logos/img2.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img2_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand">
+                <!-- Works #3 col 3 -->
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Aqua Pros - Marine Research" href='@Url.Content("~/Content/img/logos/img3.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img3_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Member For A Day - Golfers Incentive Program" href='@Url.Content("~/Content/img/logos/img4.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img4_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Master Marketing Certified - Realtor Certification" href='@Url.Content("~/Content/img/logos/img5.jpg")' data-lightbox-gallery="gallery1">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img5_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Palma Ceia - Merchants Association" href='@Url.Content("~/Content/img/logos/img6.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img6_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Peer360 - Employee Evaluation System" href='@Url.Content("~/Content/img/logos/img7.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img7_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding brand">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Phoenix Records - Record Label" href='@Url.Content("~/Content/img/logos/img8.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/logos/img8_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="BISG - Performance Management Solutions" href='@Url.Content("~/Content/img/web/img1.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img1_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Suares Housing - Custom Home Builder" href='@Url.Content("~/Content/img/web/img2.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img2_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Frilly Things - Debutante Styles" href='@Url.Content("~/Content/img/web/img3.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img3_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Genesis Direct - Customer Relation Insights" href='@Url.Content("~/Content/img/web/img4.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img4_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Global Stock Photography - Digital Imagery" href='@Url.Content("~/Content/img/web/img5.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img5_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing - Realtor Marketing" href='@Url.Content("~/Content/img/web/img6.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img6_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Opportunity Knocks - Small Business Marketing" href='@Url.Content("~/Content/img/web/img7.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img7_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Greenville Heritage - Federal Credit Union" href='@Url.Content("~/Content/img/web/img8.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img8_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="ProspectsPLUS! - Real Estate Marketing Solutions" href='@Url.Content("~/Content/img/web/img9.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img9_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="ProspectsPLUS! - Achievement Coaching" href='@Url.Content("~/Content/img/web/img10.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img10_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Lander University" href='@Url.Content("~/Content/img/web/img11.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img11_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding web">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Anderson Asphalt & Concrete Services" href='@Url.Content("~/Content/img/web/img12.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img12_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Lander University Virtual Tour" href='@Url.Content("~/Content/img/web/img13.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="http://www.lander.edu/campus/index.html"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/web/img13_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing Animation" href='@Url.Content("~/Content/img/flash/img1.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507648"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img1_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing Animation" href='@Url.Content("~/Content/img/flash/img2.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507649"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img2_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing Animation" href='@Url.Content("~/Content/img/flash/img3.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507646"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img3_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing Animation" href='@Url.Content("~/Content/img/flash/img4.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507394"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img4_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="MLSMailing Animation" href='@Url.Content("~/Content/img/flash/img5.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507269"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img5_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Crestone Animation" href='@Url.Content("~/Content/img/flash/img6.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79513837"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img6_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+        <div class="box">
+            <div class="hover-bg">
+                <div class="hover-text off">
+                    <a title="Ironworks Animation" href='@Url.Content("~/Content/img/flash/img7.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                    <a href="https://vimeo.com/79507268"><i class="fa fa-chain"></i></a>
+                </div>
+                <img src='@Url.Content("~/Content/img/flash/img7_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+        <div class="box">
+            <div class="hover-bg">
+                <div class="hover-text off">
+                    <a title="ProspectsPLUS! Animation" href='@Url.Content("~/Content/img/flash/img8.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                    <a href="https://vimeo.com/79513837"><i class="fa fa-chain"></i></a>
+                </div>
+                <img src='@Url.Content("~/Content/img/flash/img8_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+            </div>
+        </div>
+    </div>*@
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding multi">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Opportunity Knocks Animation" href='@Url.Content("~/Content/img/flash/img9.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="https://vimeo.com/79507647"><i class="fa fa-chain"></i></a>
+                        </div>
+                        <img src='@Url.Content("~/Content/img/flash/img9_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Harley Davidson Annual Report - Cover" href='@Url.Content("~/Content/img/print/img1.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="//player.vimeo.com/video/79513837"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img1_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Harley Davidson Annual Report - Spread" href='@Url.Content("~/Content/img/print/img2.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img2_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Siggraph Design Competition Entry" href='@Url.Content("~/Content/img/print/img3.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img3_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Bose Audio - Cover" href='@Url.Content("~/Content/img/print/img4.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img4_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Bose Audio - Inside Spread" href='@Url.Content("~/Content/img/print/img5.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img5_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Eurostone Marble & Granite - Direct Marketing Mailer" href='@Url.Content("~/Content/img/print/img6.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img6_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Selby Gardens Monthly Bulletin - Cover" href='@Url.Content("~/Content/img/print/img7.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img7_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Selby Gardens Monthly Bulletin - Inside Spread 1" href='@Url.Content("~/Content/img/print/img8.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            <a href="#"><i class="fa fa-chain"></i></a>
+                                    </div>
+                                    <img src='@Url.Content("~/Content/img/print/img8_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                        </div>
+                    </div>
+                </div>*@
+
+            <div class="col-xs-12 col-sm-6 col-md-3 nopadding print">
+                <div class="box">
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Selby Gardens Monthly Bulletin - Spread" href='@Url.Content("~/Content/img/print/img9.jpg")' data-lightbox-gallery="gallery1"><i class="fa fa-expand"></i></a>
+                            @*<a href="#"><i class="fa fa-chain"></i></a>*@
+                        </div>
+                        <img src='@Url.Content("~/Content/img/print/img9_sm.jpg")' class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- End Row -->

@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "Webstar4353",
+            "location": "East US"
+        },
+        "databases": [
+            {
+                "connectionStringName": "defaultConnection",
+                "databaseName": "Webstar4353_db",
+                "serverName": "webstardb",
+                "user": "bwebster",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "East US"
+            }
+        ]
+    }
+}
