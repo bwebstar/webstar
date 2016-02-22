@@ -17,8 +17,6 @@
   background-position: 50% 100%;
   color: white;
   font-size: 0.625em;
-  width: 100vw;
-  height: 100vh;
 }
 #sequence > .sequence-canvas {
   height: 100%;
@@ -305,18 +303,12 @@
   transition-duration: 0.5s;
 }
 @media only screen and (max-width: 838px) {
-  #sequence {
-    height: 550px;
-  }
   #sequence .model {
     max-height: 530px !important;
     width: auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  #sequence {
-    height: 500px;
-  }
   #sequence .title {
     font-size: 2.8em;
   }
@@ -375,37 +367,22 @@
   }
 }
 @media only screen and (max-width: 518px) {
-  #sequence {
-    height: 450px;
-  }
 }
 @media only screen and (max-width: 468px) {
-  #sequence {
-    height: 415px;
-  }
   #sequence .sequence-pagination {
     opacity: 0;
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 418px) {
-  #sequence {
-    height: 375px;
-  }
 }
 @media only screen and (max-width: 368px) {
-  #sequence {
-    height: 325px;
-  }
   #sequence .title {
     font-size: 2.2em;
   }
 }
 @media only screen and (max-width: 320px) and (orientation: portrait) {
   /*iphone portrait*/
-  #sequence {
-    height: 320px;
-  }
   #sequence .model {
     min-width: 45%;
     width: 45%;
@@ -418,9 +395,6 @@
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
-  #sequence {
-    height: 260px;
-  }
   #sequence .model {
     min-width: 24%;
     width: 24%;
@@ -436,4 +410,30 @@
   #sequence .sequence-pagination {
     right: 17.5%;
   }
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    #sequence {
+      width: 100vw;
+      height: 60vh;
+    }
+
+    .display {
+    width: 100%;
+    padding: 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    #sequence {
+      width: 100vw;
+      height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    section#splash {
+        width: 100vw;
+        height: 60vh;
+    }
 }

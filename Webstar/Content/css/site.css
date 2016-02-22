@@ -192,8 +192,6 @@ section#main {
   margin: 50px 0;
 }
 section#splash {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
 }
 section#splash .slider {
@@ -1447,4 +1445,24 @@ ul.cat li a.active {
     margin-bottom: 30px;
   }
 }
-/*# sourceMappingURL=site.css.map */
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    section#splash {
+        width: 100vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    section#splash {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    section#splash {
+        width: 100vw;
+        height: 60vh;
+    }
+}

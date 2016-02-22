@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -230,12 +231,7 @@
     <Content Include="Content\css\nivo_lightbox_themes\default\prev%402x.png" />
     <Content Include="Content\css\nivo_lightbox_themes\default\prev.png" />
     <Content Include="Content\css\sequencejs-theme.modern-slide-in.css" />
-    <Content Include="Content\css\site.css">
-      <DependentUpon>site.less</DependentUpon>
-    </Content>
-    <Content Include="Content\css\site.min.css">
-      <DependentUpon>site.css</DependentUpon>
-    </Content>
+    <Content Include="Content\css\site.css" />
     <Content Include="Content\css\slick.css" />
     <Content Include="Content\fonts\flexslider-icon.svg" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
@@ -381,10 +377,6 @@
     <Content Include="Global.asax" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\css\site.less" />
-    <Content Include="Content\css\site.css.map">
-      <DependentUpon>site.css</DependentUpon>
-    </Content>
     <None Include="Properties\PublishProfiles\webstar.pubxml" />
     <Content Include="Scripts\app\wow.min.js" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
