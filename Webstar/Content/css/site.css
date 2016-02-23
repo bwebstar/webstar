@@ -833,6 +833,9 @@ header .navbar-default ul.navbar-nav li a:hover {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+header .navbar-default ul.navbar-nav li a:visited {
+  color: #ffffff;
+}
 header .navbar-default.scrolled {
   border-bottom: 3px solid #336799;
 }
