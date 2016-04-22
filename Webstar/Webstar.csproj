@@ -380,8 +380,8 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\img\freeze\apps.psd" />
-    <None Include="Properties\PublishProfiles\webstar.pubxml" />
     <Content Include="Scripts\app\wow.min.js" />
+    <None Include="Properties\PublishProfiles\webstar - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
