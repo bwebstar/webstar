@@ -83,51 +83,57 @@ section#splash {
 }
 
 .animate-in .bg-map {
-    background-image: url(../img/sequence/bg-map.png);
+    background-image: url(../img/sequence/bg-map.jpg);
     height: 100%;
     width: 100%;
     opacity: 1;
     transition-duration: 0.5s;
+    background-repeat-y: no-repeat;
 }
 
 .animate-in .bg-phone {
-    background-image: url(../img/sequence/bg-phone.png);
+    background-image: url(../img/sequence/bg-phone.jpg);
     height: 100%;
     width: 100%;
     opacity: 1;
     transition-duration: 0.5s;
+background-repeat-y: no-repeat;
 }
 
 .animate-in .bg-plan {
-    background-image: url(../img/sequence/bg-plan.png);
+    background-image: url(../img/sequence/bg-plan.jpg);
     height: 100%;
     width: 100%;
     opacity: 1;
     transition-duration: 0.5s;
+background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-map {
-    background-image: url(../img/sequence/bg-map.png);
+    background-image: url(../img/sequence/bg-map.jpg);
     height: 100%;
     width: 100%;
     opacity: 0;
     transition-duration: 0.5s;
+background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-phone {
-    background-image: url(../img/sequence/bg-phone.png);
+    background-image: url(../img/sequence/bg-phone.jpg);
     height: 100%;
     width: 100%;
     opacity: 0;
     transition-duration: 0.5s;
+background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-plan {
-    background-image: url(../img/sequence/bg-plan.png);
+    background-image: url(../img/sequence/bg-plan.jpg);
     height: 100%;
     width: 100%;
     opacity: 0;
     transition-duration: 0.5s;
+background-repeat-y: no-repeat;
 }
 
 .pos {

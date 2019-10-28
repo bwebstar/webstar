@@ -316,8 +316,11 @@
     <Content Include="Content\img\print\img8_sm.jpg" />
     <Content Include="Content\img\print\img9.jpg" />
     <Content Include="Content\img\print\img9_sm.jpg" />
+    <Content Include="Content\img\sequence\bg-map.jpg" />
     <Content Include="Content\img\sequence\bg-map.png" />
+    <Content Include="Content\img\sequence\bg-phone.jpg" />
     <Content Include="Content\img\sequence\bg-phone.png" />
+    <Content Include="Content\img\sequence\bg-plan.jpg" />
     <Content Include="Content\img\sequence\bg-plan.png" />
     <Content Include="Content\img\sequence\bt-next.png" />
     <Content Include="Content\img\sequence\bt-prev.png" />
@@ -381,7 +384,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\img\freeze\apps.psd" />
     <Content Include="Scripts\app\wow.min.js" />
+    <Content Include="Content\resume.pdf" />
     <None Include="Properties\PublishProfiles\webstar - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\webstar1 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
