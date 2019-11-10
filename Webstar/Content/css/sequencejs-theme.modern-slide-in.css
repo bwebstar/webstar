@@ -83,7 +83,7 @@ section#splash {
 }
 
 .animate-in .bg-map {
-    background-image: url(../img/sequence/bg-map.jpg);
+    background-image: url(../img/sequence/Web.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -94,7 +94,7 @@ section#splash {
 }
 
 .animate-in .bg-phone {
-    background-image: url(../img/sequence/bg-phone.jpg);
+    background-image: url(../img/sequence/Mobile.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -105,7 +105,7 @@ section#splash {
 }
 
 .animate-in .bg-plan {
-    background-image: url(../img/sequence/bg-plan.jpg);
+    background-image: url(../img/sequence/Planning.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -116,7 +116,7 @@ section#splash {
 }
 
 .animate-out .bg-map {
-    background-image: url(../img/sequence/bg-map.jpg);
+    background-image: url(../img/sequence/Web.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -127,7 +127,7 @@ section#splash {
 }
 
 .animate-out .bg-phone {
-    background-image: url(../img/sequence/bg-phone.jpg);
+    background-image: url(../img/sequence/Mobile.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -138,7 +138,7 @@ section#splash {
 }
 
 .animate-out .bg-plan {
-    background-image: url(../img/sequence/bg-plan.jpg);
+    background-image: url(../img/sequence/Planning.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
