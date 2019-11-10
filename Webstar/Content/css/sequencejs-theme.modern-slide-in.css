@@ -86,54 +86,66 @@ section#splash {
     background-image: url(../img/sequence/bg-map.jpg);
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     transition-duration: 0.5s;
-    background-repeat-y: no-repeat;
 }
 
 .animate-in .bg-phone {
     background-image: url(../img/sequence/bg-phone.jpg);
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     transition-duration: 0.5s;
-background-repeat-y: no-repeat;
 }
 
 .animate-in .bg-plan {
     background-image: url(../img/sequence/bg-plan.jpg);
     height: 100%;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     transition-duration: 0.5s;
-background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-map {
     background-image: url(../img/sequence/bg-map.jpg);
     height: 100%;
     width: 100%;
-    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
     transition-duration: 0.5s;
-background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-phone {
     background-image: url(../img/sequence/bg-phone.jpg);
     height: 100%;
     width: 100%;
-    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
     transition-duration: 0.5s;
-background-repeat-y: no-repeat;
 }
 
 .animate-out .bg-plan {
     background-image: url(../img/sequence/bg-plan.jpg);
     height: 100%;
     width: 100%;
-    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
     transition-duration: 0.5s;
-background-repeat-y: no-repeat;
 }
 
 .pos {
