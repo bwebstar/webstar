@@ -10,9 +10,9 @@
 }
 
 section#splash {
-        width: 100vw;
-        height: 100vh;
-    }
+    width: 100vw;
+    height: 100vh;
+}
 
 #sequence ol, #sequence ul {
     list-style: none;
@@ -27,12 +27,12 @@ section#splash {
     padding: 0;
 }
 
-#sequence > .sequence-canvas > li {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+    #sequence > .sequence-canvas > li {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
 
 #sequence .title {
     font-size: 4em;
@@ -149,7 +149,7 @@ section#splash {
 }
 
 .pos {
-    margin: 25% auto;
+    margin: 18% auto;
     position: relative;
 }
 
@@ -271,15 +271,15 @@ section#splash {
     transition-duration: 1s;
 }
 
-.sequence-next:hover,
-.sequence-prev:hover {
-    opacity: 1;
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -ms-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-}
+    .sequence-next:hover,
+    .sequence-prev:hover {
+        opacity: 1;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        -ms-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s;
+    }
 
 .title {
     width: 100%;
@@ -309,6 +309,18 @@ section#splash {
     max-width: 266px;
 }
 
+@media screen and (min-width:1281px) {
+    .pos {
+        margin: 18% auto;
+    }
+}
+
+@media screen and (min-width:768) and (max-width:1280px) {
+    .pos {
+        margin: 20% auto;
+    }
+}
+
 @media screen and (max-width:767px) {
 
     #sequence .title {
@@ -330,10 +342,10 @@ section#splash {
         background: rgba(0, 0, 0, 0.3);
     }
 
-   .pag-place {
-       opacity: 0;
-       visibility: hidden;
-       display:none;
+    .pag-place {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
     }
 }
 
@@ -364,7 +376,7 @@ section#splash {
 
     .sequence-next,
     .sequence-prev {
-    top: 40%;
+        top: 40%;
     }
 }
 
@@ -385,7 +397,7 @@ section#splash {
 
     #sequence .title {
         font-size: 4vw;
-        padding-bottom:2px;
+        padding-bottom: 2px;
     }
 
     #sequence .subtitle {
@@ -405,14 +417,15 @@ section#splash {
 
     .sequence-next,
     .sequence-prev {
-    top: 40%;
+        top: 40%;
     }
 }
 
 @media screen and (max-width:320px) and (orientation:portrait) {
     .display {
         top: 30px;
-    } 
+    }
+
     .pos {
         margin: 45% auto;
     }
@@ -429,7 +442,7 @@ section#splash {
         height: 700px;
     }
 
-     section#splash {
+    section#splash {
         height: 700px;
     }
 
@@ -438,12 +451,12 @@ section#splash {
     }
 
     .pag-place {
-    bottom: 20%;
+        bottom: 20%;
     }
 
     .sequence-next,
     .sequence-prev {
-    top: 50%;
+        top: 50%;
     }
 }
 
@@ -453,11 +466,11 @@ section#splash {
     }
 
     .pag-place {
-    bottom: 20%;
+        bottom: 20%;
     }
 
     .sequence-next,
     .sequence-prev {
-    top: 50%;
+        top: 50%;
     }
 }
