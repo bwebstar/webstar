@@ -1,12 +1,13 @@
 #sequence {
-    width: 100vw;
+    /* width: 100vw;*/
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: 50% 100%;
     font-size: 0.625em;
-    color: white;
+    color: black;
 }
 
 section#splash {
@@ -27,12 +28,12 @@ section#splash {
     padding: 0;
 }
 
-    #sequence > .sequence-canvas > li {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-    }
+#sequence > .sequence-canvas > li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
 
 #sequence .title {
     font-size: 4em;
@@ -83,7 +84,8 @@ section#splash {
 }
 
 .animate-in .bg-map {
-    background-image: url(../img/sequence/Web.jpg);
+/*    background-image: url(../img/sequence/Web.jpg);*/
+    opacity: 0.5;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -94,7 +96,8 @@ section#splash {
 }
 
 .animate-in .bg-phone {
-    background-image: url(../img/sequence/Mobile.jpg);
+/*    background-image: url(../img/sequence/Mobile.jpg);*/
+    opacity: 0.5;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -105,7 +108,8 @@ section#splash {
 }
 
 .animate-in .bg-plan {
-    background-image: url(../img/sequence/Planning.jpg);
+/*    background-image: url(../img/sequence/Planning.jpg);*/
+    opacity: 0.5;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -287,15 +291,17 @@ section#splash {
     z-index: 50;
     position: relative;
     color: white;
+    text-shadow: 2px 2px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
 }
 
 .subtitle {
-    color: black;
+    color: white;
     width: 70%;
     opacity: 0;
     top: 20%;
     position: relative;
     line-height: 1.75em;
+    text-shadow: 2px 2px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
 }
 
 .model {
@@ -356,6 +362,7 @@ section#splash {
 
     section#splash {
         height: 480px;
+        background-color:#000;
     }
 
     .display {

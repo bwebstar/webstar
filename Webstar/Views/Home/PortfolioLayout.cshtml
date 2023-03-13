@@ -44,16 +44,31 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href='@Url.Action("Index", "Home")'>Home</a>
+                            <a data-scroll-nav="0" href="">services</a>
                         </li>
                         <li>
-                            <a href='@Url.Action("Login", "Account")'>Admin</a>
+                            <a data-scroll-nav="1" href="">skills</a>
                         </li>
+                        <li>
+                            <a data-scroll-nav="2" href="">work</a>
+                        </li>
+                        @*<li>
+                        <a data-scroll-nav="3" href="">contact</a>
+                    </li>
+                    <li>
+                        <a href='@Url.Action("Login", "Account")'>Admin</a>
+                    </li>*@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-->
+
+            <video autoplay muted loop id="myVideo">
+                <source src='@Url.Content("~/Content/img/space.mp4")' type="video/mp4">
+            </video>
+            <div id="overlay"></div>
+
         </nav>
 
     </header>
@@ -87,6 +102,12 @@
                     </p>
                 </div>
             </div>
+
+            <video autoplay muted loop id="myVideo">
+                <source src='@Url.Content("~/Content/img/space.mp4")' type="video/mp4">
+            </video>
+            <div id="overlay"></div>
+
         </footer>
 
     </div>

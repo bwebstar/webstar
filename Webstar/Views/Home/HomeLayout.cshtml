@@ -62,12 +62,12 @@
                         <li>
                             <a data-scroll-nav="2" href="">work</a>
                         </li>
-                        <li>
+                        @*<li>
                             <a data-scroll-nav="3" href="">contact</a>
                         </li>
                         <li>
                             <a href='@Url.Action("Login", "Account")'>Admin</a>
-                        </li>
+                        </li>*@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -75,6 +75,7 @@
             <!-- /.container-->
         </nav>
         <section id="splash">
+
                 <div id="sequence">
                     <img class="sequence-prev" src='@Url.Content("~/Content/img/sequence/bt-prev.png")' alt="Previous Frame" />
                     <img class="sequence-next" src='@Url.Content("~/Content/img/sequence/bt-next.png")' alt="Next Frame" />
@@ -121,6 +122,13 @@
                         </ul>
                     </div>
                 </div>
+
+                <video autoplay muted loop id="myVideo">
+                    <source src='@Url.Content("~/Content/img/space.mp4")' type="video/mp4">
+                </video>
+                <div id="overlay"></div>
+
+
         </section>
 
     </header>
@@ -148,6 +156,12 @@
                     </p>
                 </div>
             </div>
+
+            <video autoplay muted loop id="myVideo">
+                <source src='@Url.Content("~/Content/img/space.mp4")' type="video/mp4">
+            </video>
+            <div id="overlay"></div>
+
         </footer>
 
     </div>
