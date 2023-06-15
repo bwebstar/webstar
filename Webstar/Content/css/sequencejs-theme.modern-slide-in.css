@@ -12,7 +12,7 @@
 
 section#splash {
     width: 100vw;
-    height: 100vh;
+    height: 900px;
 }
 
 #sequence ol, #sequence ul {
@@ -120,7 +120,7 @@ section#splash {
 }
 
 .animate-out .bg-map {
-    background-image: url(../img/sequence/Web.jpg);
+/*    background-image: url(../img/sequence/Web.jpg);*/
     height: 100%;
     width: 100%;
     background-position: center;
@@ -131,7 +131,7 @@ section#splash {
 }
 
 .animate-out .bg-phone {
-    background-image: url(../img/sequence/Mobile.jpg);
+/*    background-image: url(../img/sequence/Mobile.jpg);*/
     height: 100%;
     width: 100%;
     background-position: center;
@@ -142,7 +142,7 @@ section#splash {
 }
 
 .animate-out .bg-plan {
-    background-image: url(../img/sequence/Planning.jpg);
+/*    background-image: url(../img/sequence/Planning.jpg);*/
     height: 100%;
     width: 100%;
     background-position: center;
@@ -153,7 +153,7 @@ section#splash {
 }
 
 .pos {
-    margin: 18% auto;
+    margin: 25% auto;
     position: relative;
 }
 
@@ -317,7 +317,7 @@ section#splash {
 
 @media screen and (min-width:1281px) {
     .pos {
-        margin: 18% auto;
+        margin: 25% auto;
     }
 }
 
@@ -344,8 +344,8 @@ section#splash {
         z-index: 10;
         padding: 2% 5%;
         margin: 0;
-        background: #a1a1a1;
-        background: rgba(0, 0, 0, 0.3);
+/*      background: #a1a1a1;
+        background: rgba(0, 0, 0, 0.3);*/
     }
 
     .pag-place {
@@ -362,7 +362,7 @@ section#splash {
 
     section#splash {
         height: 480px;
-        background-color:#000;
+/*        background-color:#000;*/
     }
 
     .display {
@@ -469,7 +469,7 @@ section#splash {
 
 @media screen and (min-width:768px) and (orientation:landscape) {
     #sequence {
-        height: 100vh;
+        height: 900px;
     }
 
     .pag-place {
